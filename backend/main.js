@@ -99,7 +99,7 @@ app.post('/download_faculty_attendance_report', function (req, res) {
 })
 
 app.post('/download_class_attendance_report', function (req, res) {
-  class_attendance.download_class_attendance_report(erq, res, conn);
+  class_attendance.download_class_attendance_report(req, res, conn);
 })
 
 app.post('/calculate_free_student_leave', function (req, res) {
