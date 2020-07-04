@@ -1,0 +1,17 @@
+{
+  "name": "istanbul-test-coverage-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine",
+    "test-cover": "istanbul cover --include-all-sources spec/specs.js && istanbul check-coverage"
+  }
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
